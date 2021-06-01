@@ -1,0 +1,37 @@
+.custombuttonwrapper {
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 8px;
+    width: 132px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 18px;
+
+    &--filled{
+        border: 1px solid #fb8f1d;
+        background: #fb8f1d;
+    }
+
+    &--outline{
+        border: 1px solid #fb8f1d;
+        background: white;
+    }
+    &__text {
+        font-family: inter;
+        font-weight: 500;
+        font-size: 15px;
+        
+        &--filled{
+            color: white;
+        }
+
+        &--outline{
+            color:orange;
+        }
+
+    }
+
+
+}

@@ -1,0 +1,94 @@
+.firstsection {
+    margin-top: 72px;
+    margin-left: 109px;
+    display: flex;
+    margin-bottom: 43px;
+}
+
+.info {
+    width: 50%;
+    padding-top: 33px;
+
+    &__headingtext {
+        font-family: Playfair Display;
+        font-weight: bold;
+        font-size: 64px;
+        width: 356px;
+    }
+
+    &__holidaywrapper {
+        margin-top: 75px;
+
+        &__holidaytext {
+            font-family: Inter;
+            width: 149px;
+            font-weight: 600;
+            font-size: 22px;
+            color: #202336;
+            margin-bottom: 70px;
+        }
+
+        &__boxwrapper {
+            width: 470px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+.margin-down {
+    margin-bottom: 35px;
+}
+.imagecontainer {
+    width: 50%;
+    & img {
+        width: 100%;
+    }
+}
+
+.explorebox {
+    margin-top: 51px;
+    & .custombuttonwrapper {
+        width: 180px;
+        height: 60px;
+    }
+}
+
+.secondsection {
+    width: 100%;
+    display: flex;
+    margin-top: 258px;
+    margin-bottom:262px;
+
+    &__imagecontainer {
+        margin-left:141px;
+        width: 50%;
+        margin-right:102px;
+
+        &__image{
+            width:100%;
+        }
+    }
+    &__textcontainer {
+        width: 50%;
+        margin-top: 112px;
+
+        &__header {
+            width: 481px;
+            height: 100px;
+            font-family: Playfair Display;
+            font-weight: bold;
+            font-size: 36px;
+            color: #000000;
+        }
+        &__text {
+            margin-top: 20px;
+            font-family: Mulish;
+            font-weight: 300;
+            font-size: 17px;
+            width: 450px;
+            height: 120px;
+            color: #7d7987;
+            margin-bottom: 39px;
+        }
+    }
+}

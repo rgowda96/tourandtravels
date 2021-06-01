@@ -1,0 +1,58 @@
+.topbar {
+  width: 100%;
+  display: flex;
+  margin-top: 8px;
+  &__logo {
+    display: flex;
+    align-items: center;
+    /* width: 50%; */
+    flex: 1;
+    margin-left: 111px;
+  }
+
+  &__items {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 85px;
+
+    &__item {
+      font-family: Inter;
+      font-size: 16px;
+      color: #b8becd;
+      margin-right: 34px;
+
+      &--active {
+        font-weight: 500;
+        color: #202336;
+      }
+    }
+    }
+
+    &__registerbox {
+      border: 1px solid #fb8f1d;
+      background: #fb8f1d;
+      border-radius: 8px;
+      width: 132px;
+      height: 44px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &__registertext {
+        font-family: inter;
+        font-weight: 500;
+        font-size: 15px;
+        color: #ffffff;
+      }
+    }
+  }
+
+
+
+
+
+
+
+
