@@ -2,6 +2,7 @@
   width: 100%;
   display: flex;
   margin-top: 8px;
+  position:fixed;
   &__logo {
     display: flex;
     align-items: center;
@@ -47,6 +48,14 @@
         color: #ffffff;
       }
     }
+  }
+
+
+  
+  .loginwrapper{
+    & .custombuttonwrapper {
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+     }
   }
 
 

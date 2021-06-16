@@ -1,0 +1,32 @@
+.dropDownBoxWrapper {
+    margin-top:20px;
+    margin-bottom:50px;
+    &__header {
+        font-size: 14px;
+        margin-bottom:6px;
+    }
+    &__box {
+        width: 350px;
+        background: #f2f2f2;
+        border-radius: 4px;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        padding-right:10px;
+        padding-left:10px;
+        &__defaulText {
+            /* Neutral45 */
+
+            color: #a6a6a6;
+            font-size: 14px;
+        }
+        &__arrow{
+            cursor:pointer;
+        }
+
+        & svg {
+            width:20px;
+            
+        }
+    }
+}

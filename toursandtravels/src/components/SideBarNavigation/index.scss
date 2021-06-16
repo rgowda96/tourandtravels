@@ -1,0 +1,29 @@
+.sideBarWrapper {
+    position: fixed;
+    top: 44px;
+    width: 236px;
+    height: 100%;
+    border-right: 1px solid #BDBDBD;
+    background: white;
+    &__box {
+        display: flex;
+        align-items: center;
+        margin-bottom:20px;
+        padding-left: 21px;
+        cursor:pointer;
+        &--active{
+            border:1px solid black;
+        }
+        &__icon {
+            margin-right:5px;
+        }
+
+        &__navigatorName {
+            font-size: 12px;
+        }
+    }
+    .imgProps {
+        width: 25px;
+        height: 25px;
+    }
+}

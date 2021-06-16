@@ -10,7 +10,9 @@ function TopBar() {
                 <div className='topbar__items__item '>Destinations</div>
                 <div className='topbar__items__item'>About</div>
                 <div className='topbar__items__item'>Partner</div>
-                <CustomButton name='Login' mode='outline'/>
+                <div className='loginwrapper'>
+                    <CustomButton name='Login' mode='outline'/>
+                </div>
                 <CustomButton name='Register' mode='filled'/>
             </div>
         </div>

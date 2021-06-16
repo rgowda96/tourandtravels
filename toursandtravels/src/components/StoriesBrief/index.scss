@@ -1,0 +1,41 @@
+.storiesbriefwrapper{
+    width:245px;
+    height:510px;
+    margin-right:25px;
+    &__image{
+        width:250px;
+        height:265px;
+        margin-bottom:10px;
+    }
+
+    &__header{
+        font-family: Inter;
+
+font-weight: bold;
+font-size: 19px;
+
+color: #000000;
+margin-bottom:15px;
+
+    }
+    &__text{
+        font-family: Inter;
+font-size: 15px;
+/* or 173% */
+
+
+color: #7D7987;
+
+        margin-bottom:27px;
+        
+    }
+    &__nextsection{
+        font-family: Inter;
+font-weight: 600;
+font-size: 15px;
+/* or 187% */
+
+
+color: #FB8F1D;
+    }
+}

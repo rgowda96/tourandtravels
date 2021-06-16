@@ -1,0 +1,80 @@
+.tableWrapper {
+    &__row {
+        background: #f7f7f7;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        padding: 8px 64px 8px 14.4px;
+        justify-content: space-between;
+        margin-top:5px;
+        flex-flow: row wrap;
+        position:relative;
+
+        &:nth-child(1) {
+            margin-top:0px;
+        }
+
+        &--active{
+            background: #F7F7F7;
+            border: 1px solid #27AE60;
+            box-shadow: 0px 0px 4px rgba(39, 174, 96, 0.2);
+            border-radius: 4px;
+
+            &__tick{
+                
+                position: absolute;
+                right: 65px;
+            }
+        }
+
+        &__itemwrapper {
+            display: flex;
+            align-items: center;
+            &__itemImg {
+                width: 22px;
+                height: 22px;
+                margin-right: 14.4px;
+            }
+
+            &__itemName {
+                font-size: 14px;
+                color: #333333;
+            }
+        }
+
+        &__founderwrapper {
+            display:flex;
+            align-items:center;
+            &__founderImg {
+                width: 26px;
+                height: 26px;
+                border: 1px solid #828282;
+                border-radius: 15px;
+                margin-right: 10px;
+            }
+
+            &__founderName {
+                font-size: 14px;
+                color: #333333;
+            }
+        }
+        &__item {
+            font-size: 14px;
+            color: #333333;
+        }
+
+        &__date {
+            font-size: 14px;
+            color: #333333;
+        }
+    }
+
+    .tableColumn{
+        flex:1;
+    }
+
+    .tick{
+        width:20px;
+        height:20px;
+    }
+}

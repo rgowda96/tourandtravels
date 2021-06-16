@@ -1,0 +1,83 @@
+.destination {
+    padding-right: 85px;
+    //margin-top: 120px;
+    //padding-left: 111px;
+    &__wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        //margin-right: 105px;
+        //justify-content: unset;
+        //margin-left: 105px;
+        //box-sizing: border-box;
+
+        &__header {
+            width: 50%;
+            font-family: Playfair Display;
+            font-weight: bold;
+            font-size: 36px;
+            color: #000000;
+        }
+
+        &__option {
+            justify-content: flex-end;
+            width: 50%;
+            font-family: Inter;
+            font-weight: 600;
+            font-size: 17px;
+            display: flex;
+            color: #fb8f1d;
+            margin-right: 30px;
+        }
+    }
+
+    &__cardsection {
+        display: flex;
+        //margin-left: 105px;
+        margin-top: 56px;
+    }
+}
+
+.guideswrapper {
+    display: flex;
+    margin-top: 80px;
+    width: 100%;
+    padding-left: 105px;
+    padding-right: 350px;
+    //justig
+    &__briefsection {
+        width: 50%;
+        margin-top:245px;
+        &__header {
+            font-family: Playfair Display;
+            
+            font-weight: bold;
+            font-size: 36px;
+            
+            width: 350px;
+            height: 100px;
+
+            color: #000000;
+        }
+
+        &__text {
+            margin-top:20px;
+            font-family: Mulish;
+            font-weight: 300;
+            font-size: 17px;
+            color: #7d7987;
+            width:360px;    
+            height:90px;
+            margin-bottom:33px;
+        }
+
+    }
+
+    &__image{
+        width:50%;
+        &__guideimg{
+            height:542px;
+            width:599px;
+        }
+    }
+}
